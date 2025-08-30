@@ -1,30 +1,30 @@
-# Kantin Hemat - Simple Cashier Program
+# Kantin Hemat - Program Kasir Sederhana
 
-A simple Java-based program that simulates a food and beverage purchasing system in a canteen. Users can view the menu, select items, and print a payment receipt.
+Program sederhana berbasis Java yang mensimulasikan sistem pembelian makanan dan minuman di kantin. Pengguna bisa melihat menu, memilih barang, dan mencetak struk pembayaran.
 
 ---
 
 ## 🍱 Main Features
-- Display list of food & drink menus
-- Purchase food and drinks with quantity
-- Automatic stock check (if stock is insufficient, purchase is not allowed)
-- Display payment receipt
-- Allow repeat transactions
+- Tampilkan daftar menu makanan & minuman
+- Beli makanan dan minuman dengan jumlah
+- Cek stok otomatis (jika stok tidak cukup, tidak bisa beli)
+- Tampilkan struk pembayaran
+- Bisa melakukan transaksi ulang
 
 ---
 
 ## 📦 Class Structure
-- `KantinHemat.java` – Main program
-- `Makanan.java` – Stores food data (code, name, price, stock)
-- `Minuman.java` – Stores drink data
-- `PembelianMakanan.java` – Stores food purchases + calculates total
-- `PembelianMinuman.java` – Stores drink purchases + calculates total
+- `KantinHemat.java` – Program utama (main)
+- `Makanan.java` – Menyimpan data makanan (kode, nama, harga, stok)
+- `Minuman.java` – Menyimpan data minuman
+- `PembelianMakanan.java` – Menyimpan pembelian makanan + hitung total
+- `PembelianMinuman.java` – Menyimpan pembelian minuman + hitung total
 
 ---
 
-## 🖥 How to Run
-1. Make sure Java and the compiler are installed.
-2. Compile all files:
+## 🖥 Cara Menjalankan
+1. Pastikan Java dan kompiler sudah terinstall.
+2. Kompilasi semua file:
    ```bash
    javac *.java
 3. Run the program
